@@ -410,7 +410,6 @@ function spawnParticles (cx, cy, parent) {
     const px    = Math.cos(angle) * dist;
     const py    = Math.sin(angle) * dist;
     const color = PARTICLE_COLORS[Math.floor(Math.random() * PARTICLE_COLORS.length)];
-
     const p = document.createElement('div');
     p.className = 'particle';
     p.style.left       = (cx - 3.5) + 'px';
